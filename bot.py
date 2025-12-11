@@ -19,7 +19,7 @@ from telegram.ext import (
 # ------------------ НАСТРОЙКИ ------------------
 
 # 1) Токен бота берём из переменной окружения TELEGRAM_BOT_TOKEN
-TOKEN = os.getenv("7708311786:AAG8Vsx-p0jsPBU9RAR4lBH205S8HAJW6QU")
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 # 2) Время события (ПРИМЕР!)
 #   ЗАМЕНИ на нужную тебе дату/время
