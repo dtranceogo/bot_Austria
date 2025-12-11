@@ -26,7 +26,7 @@ TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 #   Формат: год, месяц, день, час, минута, секунда
 #   Часовой пояс здесь Europe/Berlin — можешь поменять при желании.
 TARGET_DATETIME = datetime(
-    2025, 12, 31, 23, 59, 59, tzinfo=ZoneInfo("Europe/Berlin")
+    2025, 12, 19, 9, 0, 0, tzinfo=ZoneInfo("Europe/Berlin")
 )
 
 # 3) Фраза, когда событие уже наступило
